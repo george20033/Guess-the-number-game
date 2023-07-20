@@ -2,7 +2,7 @@
 var secretNumber = Math.floor(Math.random(20) * 20 + 1);
 var score = 20;
 var highScore = 0;
-document.querySelector('.number').textContent = secretNumber;
+document.querySelector('.number').textContent = '?';
 document.querySelector('.check').addEventListener('click', function () {
   var guess = Number(document.querySelector('.guess').value);
   //when there is no input
